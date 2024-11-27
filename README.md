@@ -28,30 +28,6 @@
 - CI/CD: GitHub Actions
 
 
-## Design Considerations
-The app's design prioritizes both usability and security. Key design considerations include:
-
-### API Design Principles
-
-![Screenshot 2024-10-25 204526](https://github.com/user-attachments/assets/0100e8ba-8ad1-4e2a-b5dd-7a57612f8a08)
-
-
-
-- RESTful Design: Follow RESTful principles, such as using appropriate HTTP methods (GET, POST, PUT, DELETE), and ensuring stateless interactions.
-
-- Consistent Error Responses: Design a consistent error response format to make it easy for developers to handle errors. Include meaningful error codes and messages.
-
-- Ease of Use: Ensure the API is intuitive and easy to use, with logical endpoint naming and clear request/response structures.
-
-- Efficient Querying: Optimize queries to the Firebase database to ensure fast data retrieval. Use Firebase's indexing and querying capabilities to improve performance for large datasets.
-
-- Authentication and Authorization: Implement Firebase Authentication to manage user identities securely. Ensure that API endpoints are protected so that users can only access their own data. Use Firebase's security rules to enforce data access controls based on user roles and permissions.
-
-
-![Screenshot 2024-10-25 203927](https://github.com/user-attachments/assets/2c12504a-7eea-447e-b964-f70916adee07)
-
-
-
 ### Role Design:
 - The app consists of 3 users (user, agent and admin)
 
@@ -200,3 +176,36 @@ Snyk was used to perform scans and check for any vulnerabilities. It connects to
 
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xq-9uqGN)
+
+
+## Design Considerations
+The app's design prioritizes both usability and security. Key design considerations include:
+
+### API Design Principles
+
+![Screenshot 2024-10-25 204526](https://github.com/user-attachments/assets/0100e8ba-8ad1-4e2a-b5dd-7a57612f8a08)
+
+
+
+- RESTful Design: Follow RESTful principles, such as using appropriate HTTP methods (GET, POST, PUT, DELETE), and ensuring stateless interactions.
+
+- Consistent Error Responses: Design a consistent error response format to make it easy for developers to handle errors. Include meaningful error codes and messages.
+
+- Ease of Use: Ensure the API is intuitive and easy to use, with logical endpoint naming and clear request/response structures.
+
+- Efficient Querying: Optimize queries to the Firebase database to ensure fast data retrieval. Use Firebase's indexing and querying capabilities to improve performance for large datasets.
+
+- Authentication and Authorization: Implement Firebase Authentication to manage user identities securely. Ensure that API endpoints are protected so that users can only access their own data. Use Firebase's security rules to enforce data access controls based on user roles and permissions.
+
+
+![Screenshot 2024-10-25 203927](https://github.com/user-attachments/assets/2c12504a-7eea-447e-b964-f70916adee07)
+
+
+
+
+
+
+
+
+
+
